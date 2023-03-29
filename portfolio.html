@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedashri Hanchate Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap');
+
+        .Projects,
+        .Certificates,
+        .Skills
+         {
+
+            background-color: rgb(167, 165, 165);
+            padding: 2em;
+            margin: 3em 3em;
+            justify-content: space-evenly;
+            border-radius: 5px;
+        }
+
+        .lp,
+        .tp,
+        .fp {
+            width: 310px;
+            justify-content: space-between;
+            border: solid black 2px;
+            background-color: aliceblue;
+            text-align: center;
+            font-family: 'Noto Serif Ahom', serif;
+            font-size: small;
+
+        }
+
+        img:hover {
+            opacity: 0.5;
+        }
+
+        p {
+            padding: 15px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 4em;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            color: White;
+            text-align: center;
+            padding-top: 1em;
+            font-size: 2.5em;
+
+        }
+
+       
+
+        .container2 {
+            width: 75%;
+            background-color: #ddd;
+        }
+        
+
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .html {
+            width: 75%;
+            background-color: #04AA6D;
+        }
+
+        .css {
+            width: 60%;
+            background-color: #2196F3;
+        }
+
+        .js {
+            width: 40%;
+            background-color: #f44336;
+        }
+
+        .cpp {
+            width: 60%;
+            background-color: #808080;
+        }
+        .python {
+            width: 40%;
+            background-color:#04AA6D;
+        }
+        .java {
+            width: 20%;
+            background-color: #2196F3;
+        }
+    
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div class="hamburger">
+                <img class="openbtn" onclick="openNav()" src="ham2.png" alt="" width="23">
+            </div>
+
+            <h1>PORTFOLIO</h1>
+            <h2>Projects Done</h2>
+            <div class="Projects flex flex-row">
+
+                <div class="lp">
+                    <a target="_blank" href="https://vedashrih.github.io/FasionZone-Landing-Page/">
+                        <img src="landing.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>Landing page for a online fasion store giving excelent deals created using HTML and CSS.</p>
+                </div>
+                <div class="tp">
+                    <a target="_blank" href="https://vedashrih.github.io/Tribute-page/">
+                        <img src="tribute.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>Tribute page on A.P.J Abdul Kalam created using HTML and CSS.</p>
+                </div>
+                <div class="fp">
+                    <a target="_blank" href="https://vedashrih.github.io/Registration_form/">
+                        <img src="form.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>Registration form created using HTML and CSS.</p>
+                </div>
+            </div>
+
+            <h2>Certificates</h2>
+            <div class="Certificates flex flex-row">
+                <div class="lp">
+                    <a target="_blank" href="Certificates Round 6-1865.pdf">
+                        <img src="IBM.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>Certificate of completion for completing 2 week virtual internship on Cyber Security under IBM SkillBuild Program. </p>
+                </div>
+                <div class="tp">
+                    <a target="_blank" href="Vedashri_Hanchate_2679576.pdf">
+                        <img src="TCS.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>Certificate of Achievement for completing Communication Skills course.</p>
+                </div>
+                <div class="fp">
+                    <a target="_blank" href="316.Vedashri Hanchate.pdf">
+                        <img src="iBase2.png" alt=" " width="300" height="200">
+                    </a>
+                    <p>iBase Internship certificate for completing 1 month Android Development internship program.</p>
+                </div>
+            </div>
+            <h2>My Skills</h2>
+            <div class="Skills">
+            <p>HTML</p>
+            <div class="container2">
+                <div class="skills html">75%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container2">
+                <div class="skills css">60%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container2">
+                <div class="skills js">40%</div>
+            </div>
+
+            <p>C++</p>
+            <div class="container2">
+                <div class="skills cpp">60%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container2">
+                <div class="skills python">40%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="container2">
+                <div class="skills java">20%</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

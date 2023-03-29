@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(167, 165, 165);
+    background-color: rgba(169, 165, 165, 0.5);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    background-image: url(bg6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url(bgm.jpeg);
+    }
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    width: 100%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+
+
+.infoContainer {
+
+    height: 75%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(167, 165, 165);
+    border-radius: 20px;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 100px;
+    color: black;
+
+}
+
+
+.devPic {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vh;
+
+}
+
+.img2 {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    height: 75vh;
+
+}
+
+
+.hello {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.name {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+.about {
+    font-family: 'Noto Serif Ahom', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.moreabout {
+    font-family: 'Noto Serif Ahom', serif;
+    font-size: 15px;
+}
+
+.button {
+    margin-top: 3px;
+}
+
+.button button {
+    padding: 5px 10px;
+    margin: 0 3px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(29, 30, 32);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: white;
+    color: rgb(42, 44, 45);
+}
+
+
+
+.hamburger {
+    position: fixed;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+
+.SM li {
+    list-style: none;
+    padding: 0.3em;
+}
+
+.SM {
+    padding-top: 1em;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}

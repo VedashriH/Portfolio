@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedashri Hanchate Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Intro {
+            height: 75vh;
+            margin: 5%;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(167, 165, 165);
+            border-radius: 20px;
+            padding:1.2em;
+        }
+
+        .text h1 {
+    
+            font-size: 3em;
+            font-family: 'Anton', sans-serif;
+            text-align: left;
+            padding-left: 1rem;
+        }
+        .text h2,h3 {
+            padding-left: 1rem;
+            font-size: 15px;
+            font-family: 'Noto Serif Ahom', serif;;
+        }
+        .text p{
+            padding-left: 1rem;
+            font-size: 15px;
+            font-family: 'Noto Serif Ahom', serif;;
+        }
+
+        .pic {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .pic .img1 {
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 80vh;
+
+        }
+
+        .pic .myPic {
+            position: absolute;
+            left: 5em;
+            height: 80vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div class="hamburger">
+                <img class="openbtn" onclick="openNav()" src="ham2.png" alt="" width="23">
+            </div>
+            
+            <div class="Intro">
+                <div class="pic">
+                    <img class="img1" src="bi4.png" >
+                    <img class="myPic" src="pic4.png">
+                </div>
+                <div class="text">
+                    <h1>Introduction</h1>
+                    <h2>Hello!</h2>
+                    <h3>Thank you for visiting my portfolio. Vedashri Hanchate here.</h3>
+                    <p>I attend Savitribai Phule Pune University where I study computer engineering. My first through
+                        twelfth
+                        grades were done at Kendriya Vidyalaya DIAT Pune under the CBSE board.</p>
+                    <p>I enjoy singing, painting, drawing, and reading literature. Speaking of which, reading and
+                        creating art
+                        have always helped me decompress. There are no words to adequately describe the tranquilly that
+                        may be
+                        found in reading and the arts.</p>
+                    <p>I work as the Creative Head at E-Cell SKNCOE in addition to academics.</p>
+                    <p>
+                        With my team, I have successfully arranged a number of events. As a member of E-Cell, I have
+                        gained
+                        insight into the benefits of organization, consistency, and other social skills. It enhanced
+                        several of
+                        my abilities, including public speaking, leadership, teamwork, critical thinking, event
+                        management, and
+                        many others.
+                    </p>
+                    <p>I constantly strive to learn more about new technologies since I adore them. I am a quick learner
+                        and
+                        very adaptive.</p>
+                    <p>I hope you enjoy my work.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

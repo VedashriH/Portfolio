@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedashri Hanchate Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 400px) {
+        
+            .infoContainer {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div class="hamburger">
+                <img class="openbtn" onclick="openNav()" src="ham2.png" alt="" width="23">
+            </div>
+
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Vedashri Hanchate</div>
+                    <div class="about">Student of Computer Engineering.</div>
+                    <div class="moreabout">I am a Computer Engineering [Third Year] student of Savitribai Phule Pune
+                        University. </div>
+                    <div class="button">
+                        <a href="/CV.pdf" target="_blank">
+                            <button>Download CV</button></a>
+                    </div>
+                    <ul class="SM flex">
+                        <a href="mailto:vedashrih1234@gmail.com">
+                            <li><img src="email.png" alt="" width="23"></li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vedashri-hanchate-93861a246">
+                            <li><img src="linkedin.png" alt="" width="23"></li>
+                        </a>
+                        <a href="https://github.com/VedashriH">
+                            <li><img src="github-logo.png" alt="" width="23"></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="devPic">
+                    <img class="img1" src="bi4.png">
+                    <img class="img2" src="pic.png" alt="Vedashri Hanchate">
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
